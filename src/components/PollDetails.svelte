@@ -10,7 +10,7 @@
   const handleVote = (option, id) => {
     dispatch("vote", { option, id });
   };
-</script>
+</script> 
 
 <Card>
   <div class="poll">

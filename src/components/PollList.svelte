@@ -14,12 +14,13 @@
     });
 
 */
+
 </script>
 
 <div class="poll-list">
     {#each $PollStore as poll (poll.id)}
         <div>
-            <PollDetails {poll} on:vote />
+            <PollDetails {poll} />
         </div>
     {/each}
 </div>
